@@ -11,7 +11,7 @@ const Count = () => {
             <h2>Count : { count }</h2>
             <button onClick={Increment}>Increment</button>
         </div>
-    )
+    );
 }
 
 export default Count;
