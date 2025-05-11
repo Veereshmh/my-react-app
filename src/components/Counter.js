@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react'
 const Counter = () => {
     const [count, setCount] = useState(0);
-    const [isRunning, setIsRunning] = useState(flase);
+    const [isRunning, setIsRunning] = useState(false);
     const intervalRef = useRef(null)
 
     const toggleCounter = () => {
