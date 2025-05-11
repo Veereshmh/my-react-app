@@ -1,4 +1,5 @@
 {
+  "Veereshmh": "https://Veereshmh.github.io/my-react-app",
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
@@ -12,8 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "Veereshmh": "https://Veereshmh.github.io/my-react-app",
-  "scripts": {
+    "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
