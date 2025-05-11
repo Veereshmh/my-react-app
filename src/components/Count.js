@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+
 const Count = () => {
     const [count, setCount] = useState(0);
 
