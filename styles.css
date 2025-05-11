@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Light theme (default) */
+  body.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Dark theme */
+  body.dark {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 2rem;
+  }
