@@ -12,7 +12,7 @@ function App() {
         <div className='grid grid-cols-2 gap-4'>
         <div class="bg-gray-200 p-4"><Count /></div>
         <div class="bg-gray-300 p-4"><Counter /></div> 
-        </div          
+        </div>      
         
     </div>
   );
