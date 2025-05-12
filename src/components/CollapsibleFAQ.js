@@ -29,9 +29,9 @@ const [answer, setAnswer] = useState('');
 
     return(
         <div className="w-full  max-w-xl mx-auto mt-10 space-y-4">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <div>
             <h2 className="text-lg font-semibold">Add a Question & Answer</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div className='w-full'>
             <input 
             type="text"
             placeholder = "Enter Question"
@@ -51,7 +51,7 @@ const [answer, setAnswer] = useState('');
             </div>
 
             {faqList.map((faq) => 
-            <div key={faq.id} className="border rounded shadow">
+            <div key={faq.id} className="border rounded shadow w-full">
                 <button
                 onClick={() => toggleCollapse(faq.id)}
                 className="w-full flex justify-between items-center px-4 py-3 bg-blue-500 text-white font-medium rounded-t"
