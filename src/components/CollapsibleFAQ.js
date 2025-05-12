@@ -29,9 +29,9 @@ const [answer, setAnswer] = useState('');
 
     return(
         <div className="w-full  max-w-xl mx-auto mt-10 space-y-4">
+            <h2 className="text-lg font-semibold">Add a Question & Answer</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div className='w-full'>
-            <h2 className="text-lg font-semibold">Add a Question & Answer</h2>
             <input 
             type="text"
             placeholder = "Enter Question"
