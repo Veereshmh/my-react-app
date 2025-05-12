@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, Plus } from 'lucide-react';
 
-const    = () => {
+const   CollapsibleFAQ = () => {
 const [faqList, setFaqList] = useState([]);
 const [openIndexes, setOpenIndexes] = useState([]);
 const [question, setQuestion] = useState('');
