@@ -51,7 +51,7 @@ const [answer, setAnswer] = useState('');
             </div>
 
             {faqList.map((faq) => 
-            <div key={faq.id} className="border rounded shadow w-full">
+            <div key={faq.id} className="rounded w-full">
                 <button
                 onClick={() => toggleCollapse(faq.id)}
                 className="w-full flex justify-between items-center px-4 py-3 bg-blue-500 text-white font-medium rounded-t"
