@@ -12,9 +12,11 @@ function App() {
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 p-10 bg-orange-200'>
         <div class="bg-gray-200 p-4"><Count /></div>
-        <div class="bg-gray-300 p-4"><Counter /></div> 
-        <div class="bg-gray-300 p-4"><CollapsibleFAQ /></div>
-        </div>      
+        <div class="bg-gray-300 p-4"><Counter /></div>         
+        </div>     
+        <div grid grid-cols-1 lg:grid-cols-1 gap-4 p-10 bg-gray-300>
+        <CollapsibleFAQ />
+          </div> 
         
     </div>
   );
