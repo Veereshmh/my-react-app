@@ -36,8 +36,7 @@ const [answer, setAnswer] = useState('');
             placeholder = "Enter Question"
             value={question}
             onChange={(e) => setQuestion(e.target.value)} 
-            className="w-full px-3 py-2 border rounded"
-            
+            className="w-full px-3 py-2 border rounded"            
             />
             <textarea
             placeholder='Enter Answer'
@@ -65,7 +64,7 @@ const [answer, setAnswer] = useState('');
                     </div>
                 )}
             </div>        
-        )};
+        )}
 
 
         </div>
