@@ -37,13 +37,13 @@ const [answer, setAnswer] = useState('');
             placeholder = "Enter Question"
             value={question}
             onChange={(e) => setQuestion(e.target.value)} 
-            className="w-full px-3 py-2 border rounded"            
+            className="w-full px-3 py-2 border rounded mb-4"            
             />
             <textarea
             placeholder='Enter Answer'
             value={answer}
             onChange={(e) => setAnswer(e.target.value)}
-            className="w-full px-3 py-2 border rounded"
+            className="w-full px-3 py-2 border rounded mb-4"
             />
             <button onClick={handleAdd} className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">
             <Plus size={18} /> Add Question & Answer
